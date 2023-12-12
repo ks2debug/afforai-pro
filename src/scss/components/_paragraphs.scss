@@ -1,0 +1,15 @@
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/fonts' as fonts;
+
+.p {
+  color: colors.$color_black_light_2;
+  font-family: fonts.$font-family-manrope;
+}
+
+.p_gray {
+  color: colors.$color_gray_light_1;
+}
+
+.p_green {
+  color: colors.$color_green_light_1;
+}

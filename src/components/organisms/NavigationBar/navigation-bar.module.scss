@@ -1,0 +1,69 @@
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// .container_navbar {
+//   // margin-bottom: 60px;
+//   // z-index: 2000;
+// }
+
+.div_left {
+  ul {
+    // background-color: orange;
+    li {
+      // background-color: blue;
+      button {
+        // background-color: yellow;
+        &:hover {
+          background-color: lightgray;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.img_profile {
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+
+.new-btn.violet-fill {
+  background: linear-gradient(135deg, #6004ff, #7f35ff 23.95%, #370097 60.11%, #8d4aff);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  color: #fff;
+}
+
+.btn_violet_fill {
+  background: linear-gradient(135deg, #6004ff, #7f35ff 24%, #370097 60%, #8d4aff);
+  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  color: #fff;
+  &:hover {
+    // background: blue;
+    background: linear-gradient(135deg, #6004ff, #370097 24%, #6004ff 60%, #370097);
+  }
+}
+
+/* Responsive styles */
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+  // .container_navbar {
+  //   margin-bottom: 90px;
+  // }
+}
+
+@include media-breakpoint-up(lg) {
+  // .container_navbar {
+  //   margin-bottom: 75px;
+  // }
+}
+
+@include media-breakpoint-up(xl) {
+  // .container_navbar {
+  //   margin-bottom: 60px;
+  // }
+}
+
+@include media-breakpoint-up(xxl) {
+}

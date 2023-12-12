@@ -1,0 +1,31 @@
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/fonts' as fonts;
+
+.button {
+  color: colors.$color_black_light_2;
+  font-family: fonts.$font-family-manrope;
+}
+
+.button_solid {
+  @extend .button;
+  background-color: colors.$color_gray_light_4;
+  border: 1px solid colors.$color_gray_light_2;
+
+  // &:hover {
+  //   background-color: darken($color: colors.$color-primary, $amount: 5%);
+  // }
+}
+
+.button_outline {
+  @extend .button;
+  border: 1px solid colors.$color_black_light_1;
+  // color: colors.$color-primary;
+}
+
+.btn_title_gray {
+  color: colors.$color_gray_light_1;
+}
+
+.btn_title_green {
+  color: colors.$color_green_light_1;
+}

@@ -1,0 +1,31 @@
+@use '../../../scss/abstracts/colors' as colors;
+@use '../../../scss/abstracts/mixin' as mixin;
+@use '../../../scss//abstracts/functions' as functions;
+@use '../../../scss/abstracts/variables' as variables;
+
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.div_container {
+  background-color: colors.$color_gray_light_3;
+  border: 1px solid colors.$color_gray_light_2;
+}
+
+.icon {
+  color: colors.$color_gray_light_1;
+}
+
+/* Responsive styles */
+@include media-breakpoint-up(sm) {
+}
+
+@include media-breakpoint-up(md) {
+}
+
+@include media-breakpoint-up(lg) {
+}
+
+@include media-breakpoint-up(xl) {
+}
+
+@include media-breakpoint-up(xll) {
+}
